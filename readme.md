@@ -64,4 +64,35 @@ By predicting default risk before loan approval, banks can significantly reduce 
 ## How to Run Locally
 
 
-1. Install dependenciess
+1. Install Requirements
+
+   **PROJECT STUCTURE**
+   Retail-Credit-Risk/
+│
+├── data/
+│   ├── raw/                    # Raw generated or downloaded datasets
+│   ├── processed/              # Cleaned and feature-engineered datasets
+│
+├── models/
+│   ├── trained_model.pkl       # Saved ML model
+│
+├── notebooks/
+│   ├── exploratory_analysis.ipynb
+│
+├── src/
+│   ├── generate_data.py        # Synthetic data generation
+│   ├── data_processing.py      # Cleaning and feature engineering
+│   ├── train_model.py          # Model training pipeline
+│
+├── database/
+│   ├── schema.sql              # Database schema
+│   ├── retail_credit.db        # SQLite database
+│
+├── app/
+│   ├── app.py                  # Streamlit dashboard
+│
+├── main.py                     # End-to-end pipeline runner
+├── requirements.txt
+├── README.md
+└── .gitignore
+
