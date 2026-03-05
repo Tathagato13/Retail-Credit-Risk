@@ -54,7 +54,7 @@ This platform enables:
 
 By predicting default risk before loan approval, banks can significantly reduce NPAs and improve capital efficiency.
 
-**screenshots**
+# Screenshots
 <img width="1829" height="754" alt="Screenshot 2026-03-05 122046" src="https://github.com/user-attachments/assets/d307278f-4c9f-46b2-818d-4e733afa6070" />
 <img width="1848" height="836" alt="Screenshot 2026-03-05 122100" src="https://github.com/user-attachments/assets/b2239560-a4ee-44e7-bb52-821040463599" />
 <img width="1840" height="624" alt="Screenshot 2026-03-05 122122" src="https://github.com/user-attachments/assets/4a7f6e4d-cc51-4746-af92-33e37d3cc17d" />
@@ -112,6 +112,7 @@ python main.py
 
 # launch dashboard
 streamlit run app/app.py
+
 
 
 
