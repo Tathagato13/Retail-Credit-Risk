@@ -99,4 +99,19 @@ Retail-Credit-Risk/
 └── .gitignore
 ```
 
+# clone repo
+git clone https://github.com/Tathagato13/Retail-Credit-Risk.git
+
+cd Retail-Credit-Risk
+
+# install dependencies
+pip install -r requirements.txt
+
+# run full pipeline
+python main.py
+
+# launch dashboard
+streamlit run app/app.py
+
+
 
